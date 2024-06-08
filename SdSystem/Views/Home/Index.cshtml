@@ -1,0 +1,15 @@
+﻿@model IEnumerable<SdSystem.Models.Ticket>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Ticket Management System</h1>
+    <p>Welcome to the Ticket Management System. Here you can manage and track all your tickets.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <a asp-controller="Ticket" asp-action="Create" class="btn btn-primary">Create New Ticket</a>
+
